@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.width50text {
+    width: 50%;
+    text-align: center;
+}
+
+.picHistoire {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width50 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: end;
+}
+
+.width50end {
+    width: 50%;
+    text-align: start;
+}
+ 
+.enLigne {
+    flex-direction: row;
+    display: flex;
+}
+  
+.centered {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #006D80;
+    color: #E1DDDB;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #EF6C33;
+}
+
+p {
+    font-size: 20px;
+}
+
+.widthDivText {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .enLigne {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .width50 {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .width50text {
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .widthDivText {
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .width50end {
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .displays {
+        display: none;
+    }
+
+    .centered {
+        margin-bottom: 25px;
+    }
+}

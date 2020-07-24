@@ -1,0 +1,21 @@
+.holo {
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+.title-home{
+text-align: center;
+margin-top: 3%;
+margin-bottom: 1%;
+color: #EF6C33;
+}
+
+.text-home{
+    width: 60%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
