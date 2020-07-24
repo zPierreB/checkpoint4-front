@@ -1,0 +1,43 @@
+.titleDate{
+ text-align: center;
+ margin-top: 2%;
+ margin-bottom: 2%;
+}
+
+.formulaireDate {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.BoutonTour{
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+} 
+.ajoutButton{
+    margin-top: 10px;
+    height: 30px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-date{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #EF6C33;
+}
+.dateList{
+    list-style: none;
+    padding: 5px;
+}
+@media screen and (max-width: 768px) {
+    .formulaireDate {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
